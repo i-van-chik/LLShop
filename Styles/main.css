@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background: #141414;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.logo > img{
+    height: 55px;
+    width: 55px;
+    margin-left: 5px;
+}
+
+.logo > h1{
+    color: whitesmoke;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.hero{
+    width: 100%;
+    padding: 80px;
+    background: rgb(192, 99, 0);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero > p {
+    margin-top: 20px;
+}
+
+.categories{
+    padding: 20px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(39, 39, 39);
+    border-top: 5px solid rgb(4, 109, 0);
+    border-bottom: 5px solid rgb(4, 109, 0);
+}
+
+.category{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin-top: 20px;
+    background-color: rgb(69, 69, 69);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+.card > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.card > p, .card > a{
+    margin-top: 10px;
+}
+
+.card > a {
+    text-decoration: none;
+    color: rgb(6, 191, 0);
+    transition: color 0.3s ease; /* Added transition for smooth color change */
+}
+
+.card > a:hover {
+    color: rgb(192, 99, 0);
+}
+
+footer{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(192, 99, 0);
+}
